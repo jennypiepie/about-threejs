@@ -17,6 +17,14 @@ module.exports = {
                 },
                 
             },
+            {
+                test: /\.(jpg|png|jpeg|gif|svg)$/,
+                type: "asset/resource",
+                generator: {
+                    filename: "image/[name].[hash:8][ext]" 
+                }    
+            }
+
         ]
     },
     plugins: [
