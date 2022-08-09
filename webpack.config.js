@@ -39,7 +39,7 @@ module.exports = {
       maxAssetSize: 30000000,
     },
     devServer: {
-    static: 'src', // 静态文件目录
+    static: 'static', // 静态文件目录
     compress: true, //是否启动压缩 gzip
     port: 8080, // 端口号
     open:true  // 是否自动打开浏览器

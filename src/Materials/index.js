@@ -8,14 +8,14 @@ const gui = new dat.GUI()
 const textureLoader = new THREE.TextureLoader()
 const cubeTextureLoader = new THREE.CubeTextureLoader()
 
-const woodTexture = textureLoader.load('../static/textures/wood.jpg')
+const woodTexture = textureLoader.load('/textures/wood.jpg')
 const environmentMapTexture = cubeTextureLoader.load([
-    '../static/textures/environmentMaps/1/px.png',    //正x轴图片
-    '../static/textures/environmentMaps/1/nx.png',    //负x轴图片
-    '../static/textures/environmentMaps/1/py.png',    //正y轴图片
-    '../static/textures/environmentMaps/1/ny.png',    //负y轴图片
-    '../static/textures/environmentMaps/1/pz.png',    //正z轴图片
-    '../static/textures/environmentMaps/1/nz.png',    //负z轴图片
+    '/textures/environmentMaps/1/px.png',    //正x轴图片
+    '/textures/environmentMaps/1/nx.png',    //负x轴图片
+    'textures/environmentMaps/1/py.png',    //正y轴图片
+    '/textures/environmentMaps/1/ny.png',    //负y轴图片
+    '/textures/environmentMaps/1/pz.png',    //正z轴图片
+    '/textures/environmentMaps/1/nz.png',    //负z轴图片
 ])
 
 
