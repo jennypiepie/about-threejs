@@ -4,4 +4,5 @@
 // import './Geometries'
 // import './Textures'
 // import './Materials'
-import './3D_Text'
+// import './3D_Text'
+import './Lights'
