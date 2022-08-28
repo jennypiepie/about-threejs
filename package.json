@@ -4,8 +4,10 @@
   "description": "hihi!",
   "main": "index.js",
   "dependencies": {
+    "css-loader": "^6.7.1",
     "dat.gui": "^0.7.9",
     "gsap": "^3.5.1",
+    "style-loader": "^3.3.1",
     "three": "^0.126.1"
   },
   "devDependencies": {

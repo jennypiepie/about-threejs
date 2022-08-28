@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* html,
+body{
+    overflow: hidden;
+} */
+
+html{
+    background: #1e1a20;
+}
+.textbox{
+    position: relative;
+    color: #ffffff;
+    font-size: larger;
+    height: 2000px;
+}
+
+.textbox .text1{
+    position: absolute;
+    top:280px;
+    left: 150px;
+}
+
+.textbox .text2 {
+    position: absolute;
+    top: 1000px;
+    right: 100px;
+}
+
+.textbox .text3 {
+    position: absolute;
+    top: 1600px;
+    left: 100px;
+}
+.webgl{
+    position: fixed;
+    top:0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
