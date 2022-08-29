@@ -9,4 +9,5 @@
 // import './Shadows'
 // import './Particles'
 // import './Raycaster'
-import './Scroll_based_animation'
+// import './Scroll_based_animation'
+import './Physics'
