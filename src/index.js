@@ -10,4 +10,5 @@
 // import './Particles'
 // import './Raycaster'
 // import './Scroll_based_animation'
-import './Physics'
+// import './Physics'
+import './Imported_models'
