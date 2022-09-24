@@ -17,4 +17,5 @@
 // import './Shaders_patterns'
 // import './Modified_materials'
 // import './Post_processing'
-import './Performance_tips'
+// import './Performance_tips'
+import './Loading_progress'
